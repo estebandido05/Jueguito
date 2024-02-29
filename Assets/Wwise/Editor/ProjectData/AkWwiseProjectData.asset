@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363697fbc518041d489720322655cc51, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6a1560217d5ab241aa74547bdbcdd9cd
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: 6a1560217d5ab241aa74547bdbcdd9cd
+    GuidInternal: 
+    m_lastTime: -8584930648356146376
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c9898090eabcd24ba9d613ec2d4164d0
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: c9898090eabcd24ba9d613ec2d4164d0
+    GuidInternal: 
+    m_lastTime: -8584930648356416401
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9898090eabcd24ba9d613ec2d4164d0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 388d1fbe389ba443a4acc7d05b4f89dd
+    ParentPath: SoundBanks/Default Work Unit
+    guid: 388d1fbe389ba443a4acc7d05b4f89dd
+    GuidInternal: 
+    m_lastTime: -8584924471739834468
+    List:
+    - name: Master
+      guid: e06d096e80107f469d9af5c894b631f1
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 388d1fbe389ba443a4acc7d05b4f89dd
+      - ElementName: Master
+        ObjectType: 7
+        guid: e06d096e80107f469d9af5c894b631f1
+      Path: SoundBanks/Default Work Unit/Master
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dae90be0123e4d4680a1a21c366b695a
+    ParentPath: Events/Default Work Unit
+    guid: dae90be0123e4d4680a1a21c366b695a
+    GuidInternal: 
+    m_lastTime: -8584924471740026120
+    List:
+    - name: Play_Drums
+      guid: 74ae2c3c1c8b1947a05122e40a18da14
+      id: 4062567473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dae90be0123e4d4680a1a21c366b695a
+      - ElementName: Play_Drums
+        ObjectType: 3
+        guid: 74ae2c3c1c8b1947a05122e40a18da14
+      Path: Events/Default Work Unit/Play_Drums
+      maxAttenuation: 0
+      maxDuration: 146.53947
+      minDuration: 146.53947
+    - name: Play_Modificador
+      guid: 6bf0a82830aade479dd9d7e52999d10e
+      id: 1384911199
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dae90be0123e4d4680a1a21c366b695a
+      - ElementName: Play_Modificador
+        ObjectType: 3
+        guid: 6bf0a82830aade479dd9d7e52999d10e
+      Path: Events/Default Work Unit/Play_Modificador
+      maxAttenuation: 0
+      maxDuration: 1.176
+      minDuration: 1.0586667
+    - name: Play_Publico
+      guid: 3a6cdeb632328a4383eeaa71bb114ab9
+      id: 4015044208
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dae90be0123e4d4680a1a21c366b695a
+      - ElementName: Play_Publico
+        ObjectType: 3
+        guid: 3a6cdeb632328a4383eeaa71bb114ab9
+      Path: Events/Default Work Unit/Play_Publico
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Timings
+      guid: d06cde6adcb1f84b885ca4078580be69
+      id: 2922198603
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dae90be0123e4d4680a1a21c366b695a
+      - ElementName: Play_Timings
+        ObjectType: 3
+        guid: d06cde6adcb1f84b885ca4078580be69
+      Path: Events/Default Work Unit/Play_Timings
+      maxAttenuation: 0
+      maxDuration: 1.208
+      minDuration: 0.2408125
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c5b7be7a90836941ba6c6a65f080a515
+    ParentPath: Game Parameters/Default Work Unit
+    guid: c5b7be7a90836941ba6c6a65f080a515
+    GuidInternal: 
+    m_lastTime: -8584924519624788443
+    List:
+    - name: Performance
+      guid: f7c0afadadaf6049af5a6f5468bfd79b
+      id: 2513154369
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c5b7be7a90836941ba6c6a65f080a515
+      - ElementName: Performance
+        ObjectType: 13
+        guid: f7c0afadadaf6049af5a6f5468bfd79b
+      Path: Game Parameters/Default Work Unit/Performance
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4485692c7c40054a9119fbd1c1a12e68
+    ParentPath: States/Default Work Unit
+    guid: 4485692c7c40054a9119fbd1c1a12e68
+    GuidInternal: 
+    m_lastTime: -8584930648356357116
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 850748f5b330c64092b85ceacad34458
+    ParentPath: Switches/Default Work Unit
+    guid: 850748f5b330c64092b85ceacad34458
+    GuidInternal: 
+    m_lastTime: -8584924471739864656
+    List:
+    - name: HitTiming
+      guid: dc8af56497224742ba45678806104e0a
+      id: 1753903598
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 850748f5b330c64092b85ceacad34458
+      - ElementName: HitTiming
+        ObjectType: 11
+        guid: dc8af56497224742ba45678806104e0a
+      Path: Switches/Default Work Unit/HitTiming
+      values:
+      - name: Good
+        guid: 0d38d11f4425b64090fdd5c49b9f86b9
+        id: 668632890
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: HitTiming
+          ObjectType: 11
+          guid: dc8af56497224742ba45678806104e0a
+        - ElementName: Good
+          ObjectType: 10
+          guid: 0d38d11f4425b64090fdd5c49b9f86b9
+      - name: Missed
+        guid: ddb52041edb4f84282c52a2436491329
+        id: 384398350
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: HitTiming
+          ObjectType: 11
+          guid: dc8af56497224742ba45678806104e0a
+        - ElementName: Missed
+          ObjectType: 10
+          guid: ddb52041edb4f84282c52a2436491329
+      - name: NearMissed
+        guid: 92285e4d5e5bb140a3d041a8491e6854
+        id: 1896911388
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: HitTiming
+          ObjectType: 11
+          guid: dc8af56497224742ba45678806104e0a
+        - ElementName: NearMissed
+          ObjectType: 10
+          guid: 92285e4d5e5bb140a3d041a8491e6854
+      - name: Perfect
+        guid: 2c7d577ab191354ba2a7fc378e34be9c
+        id: 2161557176
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: HitTiming
+          ObjectType: 11
+          guid: dc8af56497224742ba45678806104e0a
+        - ElementName: Perfect
+          ObjectType: 10
+          guid: 2c7d577ab191354ba2a7fc378e34be9c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Modificadores
+      guid: 883c01ec1be38247aa005bac970e76cf
+      id: 3411673138
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 850748f5b330c64092b85ceacad34458
+      - ElementName: Modificadores
+        ObjectType: 11
+        guid: 883c01ec1be38247aa005bac970e76cf
+      Path: Switches/Default Work Unit/Modificadores
+      values:
+      - name: Normal
+        guid: 0c5a163902a37446ad7638a13f910d6f
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Modificadores
+          ObjectType: 11
+          guid: 883c01ec1be38247aa005bac970e76cf
+        - ElementName: Normal
+          ObjectType: 10
+          guid: 0c5a163902a37446ad7638a13f910d6f
+      - name: x2
+        guid: 17a728d7f322fa4c8a6a684ebe86239a
+        id: 1500973335
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Modificadores
+          ObjectType: 11
+          guid: 883c01ec1be38247aa005bac970e76cf
+        - ElementName: x2
+          ObjectType: 10
+          guid: 17a728d7f322fa4c8a6a684ebe86239a
+      - name: x3
+        guid: 7874b960e8d9a34282e68f5ab8d650fd
+        id: 1500973334
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Modificadores
+          ObjectType: 11
+          guid: 883c01ec1be38247aa005bac970e76cf
+        - ElementName: x3
+          ObjectType: 10
+          guid: 7874b960e8d9a34282e68f5ab8d650fd
+      - name: x4
+        guid: 35dc37e49a06924a8ff4f2dc304bc861
+        id: 1500973329
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Modificadores
+          ObjectType: 11
+          guid: 883c01ec1be38247aa005bac970e76cf
+        - ElementName: x4
+          ObjectType: 10
+          guid: 35dc37e49a06924a8ff4f2dc304bc861
+      - name: x5
+        guid: 314877497dddb346b63ca6441f502517
+        id: 1500973328
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Modificadores
+          ObjectType: 11
+          guid: 883c01ec1be38247aa005bac970e76cf
+        - ElementName: x5
+          ObjectType: 10
+          guid: 314877497dddb346b63ca6441f502517
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Publico
+      guid: 92d3049c0909444eb20a3b784ae51252
+      id: 2909160213
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 850748f5b330c64092b85ceacad34458
+      - ElementName: Publico
+        ObjectType: 11
+        guid: 92d3049c0909444eb20a3b784ae51252
+      Path: Switches/Default Work Unit/Publico
+      values:
+      - name: Publico_Bien
+        guid: 13fda594ae6a5144948a4aea9ae3b2fe
+        id: 3850388662
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Publico
+          ObjectType: 11
+          guid: 92d3049c0909444eb20a3b784ae51252
+        - ElementName: Publico_Bien
+          ObjectType: 10
+          guid: 13fda594ae6a5144948a4aea9ae3b2fe
+      - name: Publico_Mal
+        guid: 10c74d1e2c8f0a4c90960fc8d3186fc4
+        id: 2326701662
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Publico
+          ObjectType: 11
+          guid: 92d3049c0909444eb20a3b784ae51252
+        - ElementName: Publico_Mal
+          ObjectType: 10
+          guid: 10c74d1e2c8f0a4c90960fc8d3186fc4
+      - name: Publico_MuyMal
+        guid: 0889f90266792b408ebef1a67f906023
+        id: 1069641903
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Publico
+          ObjectType: 11
+          guid: 92d3049c0909444eb20a3b784ae51252
+        - ElementName: Publico_MuyMal
+          ObjectType: 10
+          guid: 0889f90266792b408ebef1a67f906023
+      - name: Publico_Perfect
+        guid: ba60d37bd78aca48b9582e43ad11ebae
+        id: 3929032791
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 850748f5b330c64092b85ceacad34458
+        - ElementName: Publico
+          ObjectType: 11
+          guid: 92d3049c0909444eb20a3b784ae51252
+        - ElementName: Publico_Perfect
+          ObjectType: 10
+          guid: ba60d37bd78aca48b9582e43ad11ebae
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e720499ec08cf148a627eaba9187bf99
+    ParentPath: Triggers/Default Work Unit
+    guid: e720499ec08cf148a627eaba9187bf99
+    GuidInternal: 
+    m_lastTime: -8584930648356243097
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000f000000100000001100000013000000140000001700000018000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

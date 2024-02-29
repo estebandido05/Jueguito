@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79624bf087c3943f482a8d6675f9c93a, type: 3}
+  m_Name: 1E4DC710-8F2C-4C0A-9096-0FC8D3186FC4
+  m_EditorClassIdentifier: 
+  objectName: Publico_Mal
+  id: 2326701662
+  guid: 1E4DC710-8F2C-4C0A-9096-0FC8D3186FC4
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: e616d628f8bf54dbda0a7f62acb5f140, type: 2}
